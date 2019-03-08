@@ -24,8 +24,10 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(n) {
   var empty = [];
-do empty.push("I love the Beatles!")
-while n < 15
-n++;
-return empty:
+do {
+  empty.push("I love the Beatles!");
+  n++;
+} while (n < 15);
+
+return empty;
 }
